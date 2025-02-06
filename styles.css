@@ -1,0 +1,286 @@
+	* {
+	    font-family: Arial, Helvetica, sans-serif;
+	    margin: 0px;
+	    padding: 0px;
+	}
+	
+	body {
+	    background-color: blanchedalmond;
+	}
+	
+	.navbar {
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	    background-color: #000;
+	    padding: 10px 20px;
+	}
+	
+	.navbar ul li {
+	    display: inline-block;
+	    align-items: center;
+	    padding: 15px 13px;
+	}
+	
+	.navbar .nav-list a {
+	    padding: 10px;
+	    justify-content: space-between;
+	    text-decoration: none;
+	    color: white;
+	    text-align: center;
+	    padding-left: 1px;
+	    padding-right: 20px;
+	    margin-right: 2px;
+	}
+	
+	.nav-list a:hover {
+	    border-bottom: 3px solid blanchedalmond;
+	}
+	
+	.nav-list li {
+	    margin: 0 15px;
+	}
+	
+	.home {
+	    background-color: blanchedalmond;
+	    padding: 120px;
+	    text-align: center;
+	}
+	
+	.text-name p {
+	    display: block;
+	}
+	
+	img {
+	    width: 30%;
+	    height: 3%;
+	    border-radius: 320px;
+	    float: left;
+	}
+	
+	.contact-logo ul li {
+	    padding: 10px;
+	    list-style-type: none;
+	    display: inline-block
+	}
+	
+	.text-name {
+	    padding: 90px;
+	}
+	
+	.about {
+	    margin: 15px;
+	}
+	
+	.image-1 {
+	    width: 12%;
+	    float: left;
+	}
+	
+	.profile {
+	    margin-top: 50px;
+	    margin-bottom: 150px;
+	    padding: 50px;
+	}
+	
+	.text-one {
+	    display: flex;
+	}
+	
+	.one-profile {
+	    float: left;
+	    padding: 10px;
+	    width: 44%;
+	}
+	
+	.education-content {
+	    margin: 13px;
+	}
+	
+	.education-text {
+	    padding: 60px;
+	}
+	
+	.education-one {
+	    padding: 50px;
+	    border: 1px solid white;
+	    border-radius: 15px;
+	    background-color: bisque;
+	    width: 70%;
+	    margin: 10px;
+	}
+	
+	.qualification {
+	    padding: 50px;
+	    border: 1px solid white;
+	    border-radius: 15px;
+	    background-color: bisque;
+	    width: 70%;
+	    margin: 10px;
+	}
+	
+	.qualification-text {
+	    padding: 60px;
+	}
+	
+	.skill-content {
+	    padding: 50px;
+	    margin: 12px;
+	}
+	
+	.progress {
+	    display: -ms-flexbox;
+	    display: flex;
+	    height: 1.5rem;
+	    overflow: hidden;
+	    line-height: 0;
+	    font-size: .95rem;
+	    background-color: #e9ecef;
+	    border-radius: 0.25rem;
+	    margin-bottom: 1rem;
+	    margin: 30px;
+	}
+	
+	.progress-bar {
+	    display: -ms-flexbox;
+	    display: flex;
+	    -ms-flex-direction: column;
+	    flex-direction: column;
+	    -ms-flex-pack: center;
+	    justify-content: center;
+	    overflow: hidden;
+	    color: #fff;
+	    text-align: center;
+	    white-space: nowrap;
+	    background-color: #007bff;
+	    transition: width .6s ease;
+	}
+	
+	.bg-info {
+	    background-color: #17a2b8!important;
+	}
+	
+	.bg-warning {
+	    background-color: #ffc107!important;
+	}
+	
+	.bg-success {
+	    background-color: #28a745!important;
+	}
+	
+	.bg-danger {
+	    background-color: #dc3545!important;
+	}
+	
+	.bg-blue {
+	    background-color: blue!important;
+	}
+	
+	.percentage-content {
+	    padding: 30px;
+	}
+	
+	.bg-purple {
+	    background-color: #A020F0!important;
+	}
+	
+	.bg-black {
+	    background-color: #000!important;
+	}
+	
+	.bg-grey {
+	    background-color: #808080! important;
+	}
+	
+	.project-content {
+	    margin: 30px;
+	}
+	
+	.project-one {
+	    padding: 50px;
+	    border-radius: 12px;
+	    width: 60%;
+	    background-color: antiquewhite;
+	    margin: 30px;
+	}
+	
+	.contact-form {
+	    padding-left: 300px;
+	    margin: 5px;
+	}
+	
+	input {
+	    padding: 10px;
+	    border-radius: 20px;
+	    border: 1px solid grey;
+	    width: 50%;
+	}
+	
+	.contact-content {
+	    margin: 18px;
+	}
+	
+	textarea {
+	    border-radius: 10px;
+	}
+	
+	.service-content {
+	    margin: 10px;
+	}
+	
+	.service-one {
+	    padding-right: 30px;
+	    width: 40%;
+	    padding: 20px;
+	    margin: 16px;
+	    border: 1px solid grey;
+	    border-radius: 20px;
+	    text-align: center;
+	}
+	
+	.service {
+	    padding: 100px;
+	    display: flex;
+	}
+	
+	.footer {
+	    background-color: #000;
+	    color: white;
+	    padding: 20px;
+	    text-align: center;
+	}
+	
+	.logo-list {
+	    list-style-type: none;
+	}
+	
+	.logo-list ul li i {
+	    float: right;
+	}
+	
+	.fa-g {
+	    color: black;
+	    font-weight: bold;
+	}
+	
+	.fa-linkedin {
+	    color: black;
+	    font-weight: bold;
+	}
+	
+	.fa-github {
+	    color: black;
+	    font-weight: bold;
+	}
+	
+	.logo-footer .fa-g {
+	    color: white;
+	}
+	
+	.logo-footer .fa-linkedin {
+	    color: white;
+	}
+	
+	.logo-footer .fa-github {
+	    color: white;
+	}

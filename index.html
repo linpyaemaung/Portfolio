@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="navbar">
+
+        <div class="nav-list">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li> <a href="quality.html">Quality</a></li>
+                <li><a href="skill.html">Skills</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li> <a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="home">
+        <img src="profile.jpg" alt="images">
+        <div class="text-name">
+            <h2>Lin Pyae Maung</h2>
+            <p>Web developer & Front-end developer</p>
+
+            <div class="hire"> <button type="button" class="btn btn-dark" onclick="showPrompt()">Hire Me</button></div>
+            <div class="contact-logo">
+                <ul class="logo">
+                    <li><a href="linpyaemg.lpmaung@gmail.com"><i class="fa-solid fa-g"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/lin-pyae-maung-4077652b5/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/linpyaemaung"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        Created by Lin Pyae Maung
+        <div class="contact-logo">
+            <ul class="logo-footer">
+                <li><a href="linpyaemg.lpmaung@gmail.com"><i class="fa-solid fa-g"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/lin-pyae-maung-4077652b5/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/linpyaemaung"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function showPrompt() {
+            // Display a prompt box
+            var userInput = prompt("Thank you for hiring me", "Please enter your email address");
+
+            // Check if the user clicked "OK" or "Cancel"
+            if (userInput !== null) {
+                // Display the input in an alert box
+                alert("Thanks, I will reply you soon. " + userInput + "!");
+            } else {
+                alert("User  cancelled the prompt.");
+            }
+        }
+    </script>
+</body>
+
+</html>
