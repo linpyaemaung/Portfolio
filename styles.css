@@ -1,0 +1,268 @@
+	* {
+	    font-family: Arial, Helvetica, sans-serif;
+	    margin: 0px;
+	    padding: 0px;
+	}
+	
+	body {
+	    background-color: blanchedalmond;
+	}
+	
+	.navbar {
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	    background-color: #000;
+	    padding: 10px 20px;
+	}
+	
+	.navbar ul li {
+	    display: inline-block;
+	    align-items: center;
+	    padding: 15px 13px;
+	}
+	
+	.navbar .nav-list a {
+	    padding: 10px;
+	    justify-content: space-between;
+	    text-decoration: none;
+	    color: white;
+	    text-align: center;
+	    padding-left: 1px;
+	    padding-right: 20px;
+	    margin-right: 2px;
+	}
+	
+	.nav-list a:hover {
+	    border-bottom: 3px solid blanchedalmond;
+	}
+	
+	.nav-list li {
+	    margin: 0 15px;
+	}
+	
+	.home {
+	    background-color: blanchedalmond;
+	    padding: 120px;
+	    text-align: center;
+	}
+	.home img 
+	{
+		animation-delay: 0.6s;
+		  opacity: 0;
+      transform: translateX(100%);
+      animation: slideIn 1s ease-out forwards;
+	}
+	.home h2{
+		animation-delay: 0.6s;
+		  opacity: 0;
+      transform: translateX(100%);
+      animation: slideIn 1s ease-out forwards;
+	}
+
+	.text-name p {
+	    display: block;
+		font-style: italic;
+		animation-delay: 0.6s;
+		  opacity: 0;
+      transform: translateX(100%);
+      animation: slideIn 1s ease-out forwards;
+	}
+	@keyframes slideIn {
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+	
+	img {
+	    width: 30%;
+	    height: 3%;
+	    border-radius: 320px;
+	    float: left;
+	}
+	
+	.contact-logo ul li {
+	    padding: 10px;
+	    list-style-type: none;
+	    display: inline-block
+	}
+	
+	.text-name {
+	    padding: 90px;
+	}
+	
+	.about {
+	    margin: 15px;
+	}
+	.about p
+	{
+		word-wrap: break-word;
+	}
+	
+	.image-1 {
+	    width: 12%;
+	    float: left;
+	}
+	
+	.profile {
+	    margin-top: 50px;
+	    margin-bottom: 150px;
+	    padding: 50px;
+	}
+	
+	.text-one {
+	    display: flex;
+	}
+	
+	.one-profile {
+	    float: left;
+	    padding: 10px;
+	    width: 44%;
+	}
+	
+	label {
+	    font-weight: bold;
+	}
+	
+	.education-content {
+	    margin: 13px;
+	}
+	
+	.education-text {
+	    padding: 60px;
+	}
+	
+	.education-one {
+	    padding: 50px;
+	    border: 1px solid white;
+	    border-radius: 15px;
+	    background-color: bisque;
+	    width: 70%;
+	    margin: 10px;
+	}
+	
+	.qualification {
+	    padding: 50px;
+	    border: 1px solid white;
+	    border-radius: 15px;
+	    background-color: bisque;
+	    width: 70%;
+	    margin: 10px;
+	}
+	
+	.qualification-text {
+	    padding: 60px;
+	}
+	
+	.skill-content {
+	    padding: 50px;
+	    margin: 12px;
+	}
+	
+	.technical-skill {
+	    display: flex;
+	}
+	
+	.technical-one {
+	    padding: 18px;
+	    width: 20%;
+	    margin: 20px;
+	    font-size: 15px;
+	    text-align: center;
+	    border-radius: 20px;
+	    background-color: blanchedalmond;
+	}
+	
+	.project-content {
+	    margin: 30px;
+	}
+	
+	.project-one {
+	    padding: 50px;
+	    border-radius: 12px;
+	    width: 60%;
+	    background-color: antiquewhite;
+	    margin: 30px;
+	}
+	.work-content
+	{
+		   margin: 30px;
+	}
+	.work-one 
+	{
+		  padding: 50px;
+	    border-radius: 12px;
+	    width: 60%;
+	    background-color: antiquewhite;
+	    margin: 80px;
+	}
+	.contact-form {
+	    padding-left: 300px;
+	    margin: 5px;
+	}
+	
+	input {
+	    padding: 10px;
+	    border-radius: 20px;
+	    border: 1px solid grey;
+	    width: 50%;
+	}
+	.contact-content {
+	    margin: 18px;
+	}
+	
+	textarea {
+	    border-radius: 10px;
+	}
+	
+	.footer {
+	    background-color: #000;
+	    color: white;
+	    padding: 20px;
+		height:20vh;
+	    text-align: center;
+	}
+	
+	.logo-list {
+	    list-style-type: none;
+	}
+	
+	.logo-list ul li i {
+	    float: right;
+	}
+	
+	.fa-discord {
+	    color: black;
+	    font-weight: bold;
+	}
+	
+	.fa-linkedin {
+	    color: black;
+	    font-weight: bold;
+	}
+	
+	.fa-github {
+	    color: black;
+	    font-weight: bold;
+	}
+	
+	.logo-footer .fa-discord {
+	    color: white;
+	}
+	
+	.logo-footer .fa-linkedin {
+	    color: white;
+	}
+	
+	.logo-footer .fa-github {
+	    color: white;
+	}
+	
+	.space {
+	    padding-right: 170px;
+	}
+	
+	.text-name h2 {
+	    font-weight: 700;
+	}
